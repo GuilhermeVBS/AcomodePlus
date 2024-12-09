@@ -50,7 +50,7 @@
         <link rel="stylesheet" href="css/navBar.css">
         <link rel="stylesheet" href="css/header.css">
         <script src="js/slider.js" defer></script>
-        <title>Acomode+</title>
+        <title>AcomodePlus</title>
     </head>
 
     <body>
