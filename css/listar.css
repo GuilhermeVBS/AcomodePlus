@@ -1,0 +1,103 @@
+
+/* Estilos do body */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+
+
+/* Container de usuários */
+.user-container {
+    margin: 5vh auto;
+    width: 95%;
+    max-width: 1200px;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+/* Ações dos usuários */
+.user-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2vh;
+    border-radius: 1em;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 1em;
+    text-align: center;
+    font-size: 1rem; /* Ajuste do tamanho do texto */
+}
+
+table th {
+    background-color: #283593;
+    color: white;
+}
+
+table td {
+    background-color: #fafafa;
+}
+
+table td button {
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.contrato-btn {
+    background-color: #5F9EA0; /* Azul-esverdeado suave, mais coerente e elegante */
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.contrato-btn:hover {
+    background-color: #4F8A87; /* Cor mais escura para o hover */
+}
+
+.anuncio-btn {
+    background-color: #FFD966;
+    transition: background-color 0.3s ease;
+}
+
+.anuncio-btn:hover {
+    background-color: #FFCC33; /* Cor mais escura para o hover */
+}
+
+.delete-btn {
+    background-color: #FF6F61;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #E04E46; /* Cor mais escura para o hover */
+}
+
+.edit-btn {
+    background-color: #98DBC6;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.edit-btn:hover {
+    background-color: #75B5A0; /* Cor mais escura para o hover */
+}

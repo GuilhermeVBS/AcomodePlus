@@ -1,0 +1,74 @@
+/* Estilo geral da página */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    width: 90%;
+    max-width: 80vw;
+    margin: 40px auto;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-header h1 {
+    font-size: 2rem;
+    color: #ff7043;
+}
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #ff7043;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+}
+
+.termos-conteudo {
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.termos-conteudo h3 {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    color: #e64a19;
+}
+
+.termos-conteudo p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.redirect-button {
+    display: inline-block;
+    text-align: center;
+    margin-top: 2rem;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    background-color: #ff7043;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.redirect-button:hover {
+    background-color: #e64a19;
+}

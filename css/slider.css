@@ -1,0 +1,90 @@
+.slider{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border-top-right-radius:8px;
+    border-top-left-radius:8px;
+}
+
+.list{
+    position: relative;
+    display: flex;
+    width: max-content;
+    transition: 1s;
+    
+}
+.list img{
+    width: 300px;
+    margin: 0;
+    height: 260px;
+    overflow: hidden;
+}
+
+.buttons{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff6;
+    color: #fff;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    transform: scale(1.1);
+    background-color: #fff9;
+}
+
+.dots{
+    position: absolute;
+    bottom: 1px;
+    color: #fff;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dots li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.dots li:hover{
+    transform: scale(1.5);
+}
+
+.dots li.active{
+    width: 30px;
+}
+
+.slider .buttons,
+.slider .dots {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.slider:hover .buttons,
+.slider:hover .dots {
+    opacity: 1;
+}

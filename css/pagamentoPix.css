@@ -1,0 +1,91 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos do body */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* Contêiner de pagamento */
+.payment-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    margin: 20px auto; /* Centraliza o contêiner */
+}
+
+/* Título */
+.payment-container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #283593;
+}
+
+/* Seção do QR Code */
+.qr-code {
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+/* Código PIX */
+.pix-code {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 5px;
+    word-wrap: break-word;
+    border: 1px solid #ccc;
+}
+
+/* Botão de copiar */
+.btn-copy {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.btn-copy:hover {
+    background-color: #45a049;
+}
+
+/* Botão de voltar */
+.btn-back {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-back:hover {
+    background-color: #b71c1c;
+}
+
+/* Mensagem de cópia */
+#copyMessage {
+    color: green;
+    margin-top: 10px;
+    display: none;
+}

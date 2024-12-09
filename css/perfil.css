@@ -1,0 +1,99 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos do body */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* Seção do perfil */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    margin-bottom: 20px;
+}
+
+.edit-form{
+    cursor: pointer;
+}
+.edit-form i{
+    font-size: 35px;
+}
+
+.profile-image {
+    flex: 1;
+    text-align: center;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.upload-btn {
+    display: inline-block;
+    padding: 12px 16px;
+    background-color: #ff7043;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-btn:hover {
+    background-color: #e65100;
+}
+
+.remove-btn {
+    display: inline-block;
+    padding: 12px 16px;
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.remove-btn:hover {
+    background-color: #b71c1c;
+}
+
+.profile-info {
+    flex: 2;
+}
+
+.logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logout button{
+    display: inline-block;
+    padding: 12px 16px;
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    transition: background-color 0.3s;
+}
+
+.logout button:hover{
+    background-color: #b71c1c;
+}

@@ -1,0 +1,41 @@
+header {
+    background: #283593;
+    color: #fff;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    padding-top: 15px;
+    margin-left: 20px;
+    display: inline-flex;
+}
+
+.logo img{
+    border-radius: 50%;
+    max-width: 75px;
+    max-height: 75px;
+}
+.logo h1{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+.perfil img{
+    border-radius: 50%;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.perfil a{
+    color: #fff;
+    text-decoration: none;
+    transition: 2s;
+}
+
+.perfil a:hover {
+    color: #e64a19;
+}

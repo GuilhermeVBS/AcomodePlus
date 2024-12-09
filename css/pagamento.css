@@ -1,0 +1,134 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos do body */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/* Contêiner de pagamento */
+.payment-container {
+    display: flex; /* Flexbox para alinhar informações de cobrança e formulário de pagamento */
+    max-width: 1200px; /* Largura máxima */
+    margin: 42.3px auto; /* Centraliza o contêiner */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Informações de cobrança */
+.billing-info {
+    flex: 1; /* Ocupa uma parte do espaço */
+    padding-right: 20px; /* Espaço à direita */
+}
+
+.billing-info h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #283593;
+}
+
+.billing-info .description,
+.billing-info .total {
+    margin-bottom: 10px;
+}
+
+/* Formulário de pagamento */
+.payment-form-container {
+    flex: 1; /* Ocupa uma parte do espaço */
+}
+
+.payment-form-container h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #283593;
+}
+
+/* Imagens dos bancos */
+.bank-logos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.bank-logo {
+    width: 50px; /* Ajuste o tamanho das imagens conforme necessário */
+    height: auto;
+    margin: 0 10px;
+}
+
+/* Formulário de Pagamento */
+.payment-form {
+    display: flex;
+    flex-direction: column; /* Empilha os grupos de formulários verticalmente */
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between; /* Alinha os rótulos e campos lado a lado */
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+/* Botão de Confirmar Pagamento */
+.btn-pay {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.7rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.btn-pay:hover {
+    background-color: #45a049;
+    
+}
+
+
+/* Botão de Voltar */
+.btn-back {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 0.4rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-back:hover {
+    background-color: #b71c1c;
+}
+
+.upload-btn {
+    display: inline-block;
+    padding: 12px 16px;
+    background-color: #ff7043;
+    color: white;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-btn:hover {
+    background-color: #e65100;
+}
